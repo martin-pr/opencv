@@ -1,4 +1,4 @@
-libopencv (3.4-1ubuntu1) bionic; urgency=medium
+libopencv-daily (3.4-1ubuntu1) bionic; urgency=medium
 
   * Snapshot release for Launchpad
 

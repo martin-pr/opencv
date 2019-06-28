@@ -1,14 +1,17 @@
-Source: libopencv
+Source: libopencv-daily
 Section: graphics
 Priority: optional
 Maintainer: Embree Support <embree_support@intel.com>
 Build-Depends: debhelper (>= 9), cmake, libeigen3-dev, pkg-config, libc6-dev, libtbb-dev
+Provides: libopencv, libopencv-dev, libopencv-core
+Replaces: libopencv, libopencv-dev, libopencv-core
+Conflicts: libopencv, libopencv-dev, libopencv-core
 Standards-Version: 4.1.2
 Homepage: https://github.com/opencv/opencv
 Vcs-Git: https://github.com/opencv/opencv
 Vcs-Browser: https://github.com/opencv/opencv
 
-Package: libopencv
+Package: libopencv-daily
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: OpenCV (Open Source Computer Vision Library) is an open source
